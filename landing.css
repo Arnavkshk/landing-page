@@ -25,14 +25,14 @@ body{
     color: #1ed760;
     cursor: pointer;
 }
-li,a{
+a{
     font-family:Arial, Helvetica, sans-serif;
     color: white;
     font-size: 16px;
     font-weight:bold; 
     text-decoration: none;
     line-height: 1.5;
-}
+} 
 header{
     justify-content: space-between;
 }
@@ -248,6 +248,10 @@ content:active{
     margin-left: 150px;
     margin-top: 80px;
 }
+.row a:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
 .footer-col{
     flex-basis: 50%;
     max-width: 25%;
@@ -270,12 +274,18 @@ content:active{
     display: flex;
     padding-top: 200px;
     justify-content: space-around;
+    width: 700px;
+    font-weight: lighter;
 }
 footer{
-    font-size: 10px;
     height: auto;
     position: relative;
     background-color: black;
     height: 300px;
 
+}
+
+footer a:hover{
+    color: #1ed760;
+    cursor: pointer;
 }
