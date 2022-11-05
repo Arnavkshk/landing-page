@@ -525,6 +525,9 @@ footer a:hover{
     }
 }
 @media (max-width:400px) {
+    #nav{
+        padding-left: 0px;
+    }
     #text{
         margin-left: 250px;
         width: 300px;
@@ -546,5 +549,10 @@ footer a:hover{
     }
     #down{
         margin-left: 150px;
+    }
+}
+@media(max-width:350px) {
+    .container{
+        margin-left: 175px;
     }
 }
