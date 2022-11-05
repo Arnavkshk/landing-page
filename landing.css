@@ -167,7 +167,6 @@ h2{
     font-size: 17px;
     justify-content: center;
     align-items: center;
-    border: 0.0083px rgb(0, 0, 0) solid;
     outline: none;
     transition: 0.4s;
 }
@@ -207,14 +206,14 @@ content:active{
 }
 #down{  
     margin-left: 650px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
     font-size: 14px;
     height: 60px;
     width: 200px;
     border-radius: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(202, 202, 202);
     border: 0px;
 }
 
