@@ -20,3 +20,24 @@ for (i = 0; i < acc.length; i++) {
 function myFunction(x) {
   x.classList.toggle("change");
 }
+
+// //function to toggle hamburger menu
+// function toggleMenu(){
+//   // var tap=document.getElementById(".bar2");
+//   // var menuToggle = document.querySelectorAll('#navbar');
+//   this.classList.toggle("active");
+//     // tap.addEventListener("click"),()=>{
+//     console.log("clicked");
+//   }
+// // }
+
+// function myFunction() {
+//   var x = document.getElementById("container");
+//   if (x.className === "#navbar") {
+//     console.log("hhj");
+//     x.className += "responsive";
+//   } else {
+//     x.className = ".navbar";
+//     console.log("clickedasd");
+//   }
+// }

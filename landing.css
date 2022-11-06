@@ -378,14 +378,20 @@ footer a:hover{
     }
     #navbar{
         display: none;
-    }
-    #navbar:active{
         margin-left: 195px;
         padding-left: 264px;
         margin-bottom: 46px;
         height:160px;
         width: 145px;
-        }
+    }
+    /* #navbar.responsive{
+        display: block;
+        margin-left: 195px;
+        padding-left: 264px;
+        margin-bottom: 46px;
+        height:160px;
+        width: 145px;
+    } */
     
     #bottom1{
         width:500px;
@@ -453,7 +459,7 @@ footer a:hover{
 
 }
 @media(max-width:938px){
-    #navbar:active{
+    #navbar{
        width: 110px;
        padding-left: 170px;
 
