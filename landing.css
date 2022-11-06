@@ -370,9 +370,23 @@ footer a:hover{
     }
 }
 @media(max-width:1110px){
+    .navlist{
+        flex-direction: column;
+    }
+    .nabar{
+        flex-direction: column;
+    }
     #navbar{
-        margin-left: 500px;
-        display: none;}
+        display: none;
+    }
+    #navbar:active{
+        margin-left: 195px;
+        padding-left: 264px;
+        margin-bottom: 46px;
+        height:160px;
+        width: 145px;
+        }
+    
     #bottom1{
         width:500px;
     }
@@ -406,10 +420,6 @@ footer a:hover{
 
 }
 @media(max-width:1000){
-    #navbar{
-        display: none;
-
-    }
     #bottom1{
         width:400px;
     }
@@ -442,9 +452,10 @@ footer a:hover{
     }
 
 }
-@media(max-width:900px){
-    #navbar{
-        display: none;
+@media(max-width:938px){
+    #navbar:active{
+       width: 110px;
+       padding-left: 170px;
 
     }
     #bottom1{
@@ -465,7 +476,6 @@ footer a:hover{
         width: 100px;
         font-size: 10px;
         margin-left: 270px;
-
     }
     #button{
         height: 60px;
@@ -514,6 +524,9 @@ footer a:hover{
 
 }
 @media(max-width:750px){
+    #navbar{
+        padding-left: 150px;
+    }
     #navlogo{
         padding-left: 0px;
     }
@@ -527,7 +540,10 @@ footer a:hover{
         padding: 0px;
     }
 }
-@media (max-width:400px) {
+@media (max-width:512px) {
+    #navbar{
+        padding-left: 16px;
+    }
     #navlogo{
         padding-left: 0px;
     }
@@ -554,8 +570,35 @@ footer a:hover{
         margin-left: 150px;
     }
 }
-@media(max-width:350px) {
+@media(max-width:377px) {
+    #mid{
+        margin-left: 40px;
+        margin-right: 0px;
+    }
     .container{
         margin-left: 175px;
+    }
+    #navbar{
+        margin-left: 213px;
+        width: 75px;
+        margin-bottom: 0px;
+        height: 110px;
+    }
+    #down{
+        margin-left: 120px;
+        font-size: 7px;
+    }
+}
+@media(max-width:350px){
+    #navbar{
+        margin-left: 150px;
+        margin-bottom: 0px;
+        height: 110px;
+    }
+    .foote{
+        margin-left: 0px;
+        padding-left: 0px;
+        width:280px;
+        padding-top: 194px;
     }
 }
